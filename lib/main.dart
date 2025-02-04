@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
 }
 
 class ContctListScreen extends StatefulWidget {
+  const ContctListScreen({super.key});
+
   @override
   _ContactListScreenStat createState() => _ContactListScreenStat();
 }
